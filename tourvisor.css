@@ -1,0 +1,123 @@
+.TVLineForm.TVTheme2 {
+    color: #212B36;
+}
+
+.TVLineForm.TVTheme2 .TVMainForm {
+    padding: 12px;
+    gap: 12px;
+}
+
+.TVMainFilter {
+    gap: 4px;
+    border-radius: 16px;
+    background-color: transparent
+}
+
+.TVMainFilter>:not(:last-child) {
+    border-right: none;
+}
+
+.TVCountryFilter>div>div {
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+
+    &:focus {
+        border: 1px solid red;
+    }
+}
+
+.TVFlyDatesFilter>div>div {
+    border-radius: 16px;
+    margin-left: 4px;
+}
+
+.TVNightsFilter>div>div {
+    border-radius: 16px;
+    margin-left: 4px;
+}
+
+.TVTouristsFilter.TVBorderRightNone>div>div {
+    border-radius: 16px;
+    margin-left: 4px;
+}
+
+.TVLineForm.TVTheme2 .TVSearchButton {
+    border-radius: 16px;
+    margin-left: 4px;
+}
+
+.TVMainSelect.TVStyleTheme2 .TVMainSelectContent {
+    font-family: Golos Text;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20.4px;
+    letter-spacing: 0%;
+}
+
+.TVMainSelect.TVStyleTheme2 .TVMainSelectPlaceholder {
+    font-family: Golos Text;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19.5px;
+    letter-spacing: 0%;
+    color: #637381;
+    text-transform: none;
+}
+
+.TVSearchButton.TVButtonColor.TVButtonHover {
+    font-family: Golos Text;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20.8px;
+    letter-spacing: 0%;
+}
+
+.TVCalendarTitleControl,
+.TVCalendarTitleControl .TVCalendarTitleControlYear.TVFontWeightSize-S {
+    flex-direction: row;
+    font-family: Golos Text;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19.2px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #212B36;
+    gap: 4px;
+}
+
+.TVCalendarTitleControl .TVCalendarTitleControlMonth.TVTextTransform-Uppercase {
+    text-transform: none;
+}
+
+.TVCalendarSliderView .TVCalendarSliderViewLeftButton,
+.TVCalendarSliderView .TVCalendarSliderViewRightButton {
+    color: #637381;
+    background-color: transparent;
+}
+
+.TVCalendarSliderView .TVCalendarSliderViewLeftButton::after,
+.TVCalendarSliderView .TVCalendarSliderViewRightButton::after {
+    font-size: 16px
+}
+
+.TVCheckBox {
+    font-family: Golos Text;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 0%;
+    color: #212B36;
+}
+
+.TVTooltip {
+    border-radius: 16px;
+}
+
+.TVFilterForm.TVSearchingFormFlexBlock,
+.search-page .TVFilterForm:before {
+    background-color: #D63F3F !important;
+}
+
+.TVTouristsFilter>div>div {
+    border-radius: 16px;
+}
